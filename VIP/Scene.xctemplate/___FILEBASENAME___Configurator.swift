@@ -8,7 +8,6 @@
 enum ___VARIABLE_sceneName___Configurator {
 
     static func configure(viewController: ___VARIABLE_sceneName___ViewController) {
-        let viewController = ___VARIABLE_sceneName___ViewController(nibName: nil, bundle: nil)
         let interactor = ___VARIABLE_sceneName___Interactor()
         let presenter = ___VARIABLE_sceneName___Presenter()
         let router = ___VARIABLE_sceneName___Router()
