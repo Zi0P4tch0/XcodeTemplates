@@ -12,12 +12,12 @@ enum ___VARIABLE_sceneName___Configurator {
         let interactor = ___VARIABLE_sceneName___Interactor()
         let presenter = ___VARIABLE_sceneName___Presenter()
         let router = ___VARIABLE_sceneName___Router()
-        router.viewController = viewController // weak ref
-        router.dataStore = interactor
-        presenter.output = viewController // weak ref
-        interactor.output = presenter
         viewController.output = interactor
         viewController.router = router
+        interactor.output = presenter
+        presenter.output = viewController // weak ref
+        router.viewController = viewController // weak ref
+        router.dataStore = interactor
     }
 
 }
