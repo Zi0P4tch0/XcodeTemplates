@@ -15,6 +15,7 @@ final class ___VARIABLE_sceneName___InteractorTests: XCTestCase {
 
     override func setUp() {
         sut = ___VARIABLE_sceneName___Interactor()
+        outputMock = ___VARIABLE_sceneName___InteractorOutputMock()
         sut.output = outputMock
     }
 

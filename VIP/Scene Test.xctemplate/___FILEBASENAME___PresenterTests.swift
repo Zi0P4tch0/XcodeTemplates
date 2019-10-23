@@ -15,6 +15,7 @@ final class ___VARIABLE_sceneName___PresenterTests: XCTestCase {
 
     override func setUp() {
         sut = ___VARIABLE_sceneName___Presenter()
+        outputMock = ___VARIABLE_sceneName___PresenterOutputMock()
         sut.output = outputMock
     }
 
