@@ -5,18 +5,18 @@
 	<key>DefaultCompletionName</key>
 	<string>MyScene</string>
   <key>Description</key>
-  <string>This generates a new scene for the VIPER architecture - inspired by Clean Swift and Uncle Bob's clean architecture.</string>
+  <string>This generates a new TCA feature.</string>
   <key>Kind</key>
   <string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
   <key>Options</key>
   <array>
 		<dict>
 			<key>Description</key>
-			<string>The name of the scene to create</string>
+			<string>The name of the feature to create</string>
 			<key>Identifier</key>
-			<string>sceneName</string>
+			<string>featureName</string>
 			<key>Name</key>
-			<string>New Scene Name:</string>
+			<string>New Feature Name:</string>
 			<key>NotPersisted</key>
 			<true/>
 			<key>Required</key>
@@ -26,7 +26,7 @@
 		</dict>
     <dict>
 			<key>Default</key>
-			<string>___VARIABLE_sceneName:identifier___</string>
+			<string>___VARIABLE_featureName:identifier___</string>
 			<key>Identifier</key>
 			<string>productName</string>
 			<key>Type</key>
@@ -40,6 +40,6 @@
 	<key>SortOrder</key>
 	<string>4</string>
   <key>Summary</key>
-  <string>This generates a new scene for the VIPER architecture - inspired by Clean Swift and Uncle Bob's clean architecture.</string>
+  <string>This generates a new  TCA feature.</string>
 </dict>
 </plist>

@@ -35,7 +35,7 @@ protocol ___VARIABLE_sceneName___PresenterInput {
 
 // MARK: - View
 
-protocol ___VARIABLE_sceneName___ViewInput: class {
+protocol ___VARIABLE_sceneName___ViewInput: AnyObject {
 
 }
 

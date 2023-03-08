@@ -3,20 +3,20 @@
 <plist version="1.0">
 <dict>
 	<key>DefaultCompletionName</key>
-	<string>UseCase</string>
+	<string>MyScene</string>
   <key>Description</key>
-  <string>This generates a new use case for the MVVM-C architecture.</string>
+  <string>This generates a new UIKit scene for the VIP architecture - inspired by Clean Swift and Uncle Bob's clean architecture.</string>
   <key>Kind</key>
   <string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
   <key>Options</key>
   <array>
 		<dict>
 			<key>Description</key>
-			<string>The name of the use case to create</string>
+			<string>The name of the scene to create</string>
 			<key>Identifier</key>
-			<string>useCaseName</string>
+			<string>sceneName</string>
 			<key>Name</key>
-			<string>New Use Case Name:</string>
+			<string>New Scene Name:</string>
 			<key>NotPersisted</key>
 			<true/>
 			<key>Required</key>
@@ -26,7 +26,7 @@
 		</dict>
     <dict>
 			<key>Default</key>
-			<string>___VARIABLE_useCaseName:identifier___</string>
+			<string>___VARIABLE_sceneName:identifier___</string>
 			<key>Identifier</key>
 			<string>productName</string>
 			<key>Type</key>
@@ -40,6 +40,6 @@
 	<key>SortOrder</key>
 	<string>4</string>
   <key>Summary</key>
-  <string>This generates a new use case for the MVVM-C architecture.</string>
+  <string>This generates a new scene for the VIP/UIKit architecture - inspired by Clean Swift and Uncle Bob's clean architecture.</string>
 </dict>
 </plist>

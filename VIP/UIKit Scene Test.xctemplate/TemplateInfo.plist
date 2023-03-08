@@ -5,7 +5,7 @@
 	<key>DefaultCompletionName</key>
 	<string>MyScene</string>
   <key>Description</key>
-  <string>This generates template tests for a VIP scene - inspired by Clean Swift and Uncle Bob's clean architecture.</string>
+  <string>This generates UIKit-based template tests for a VIP scene - inspired by Clean Swift and Uncle Bob's clean architecture.</string>
   <key>Kind</key>
   <string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
   <key>Options</key>
@@ -40,6 +40,6 @@
 	<key>SortOrder</key>
 	<string>4</string>
   <key>Summary</key>
-  <string>This generates template tests for a VIP scene - inspired by Clean Swift and Uncle Bob's clean architecture.</string>
+  <string>This generates UIKit-based template tests for a VIP scene - inspired by Clean Swift and Uncle Bob's clean architecture.</string>
 </dict>
 </plist>
