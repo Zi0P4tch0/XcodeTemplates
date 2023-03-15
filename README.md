@@ -1,36 +1,37 @@
-# Xcode Templates
+# 🌟 Xcode Templates 🌟
 
-A collection of useful Xcode templates.
+A collection of essential Xcode templates to streamline your development process. 🚀
 
-Less boilerplate, more coding!
+Spend less time on boilerplate and more time creating amazing apps! 🎉
 
-| Templates | UI Framework    | Extra Dependencies        |
-| --------- | --------------- | ------------------------- |
-| MVVM-C    | `UIKit`         | [RxSwift](https://github.com/ReactiveX/RxSwift) |
-| VIP       | `UIKit`         |                           |
-| TCA       | `SwiftUI`       | [ComposableArchitecture](https://github.com/pointfreeco/swift-composable-architecture) |
+| 📚 Templates | 🖼️ UI Framework | 🧩 Extra Dependencies |
+| ------------ | --------------- | --------------------- |
+| 🧠 MVVM-C    | `UIKit`         | [RxSwift](https://github.com/ReactiveX/RxSwift) |
+| 🚀 VIP       | `UIKit`         |                       |
+| 🏗️ TCA       | `SwiftUI`       | [ComposableArchitecture](https://github.com/pointfreeco/swift-composable-architecture) |
 
+## 📝 Instructions
 
-## Instructions
+⚠️ *Please ensure Xcode is not running when executing the commands below...*
 
-*Make sure Xcode is not running when running the commands below...*
+To install the templates, simply run:
 
-To install the templates, run:
+```bash
+make install
+```
 
-> make install
+To uninstall the Clean Swift Xcode templates, execute:
 
-To uninstall the Clean Swift Xcode templates, run:
+```bash
+make uninstall
+```
 
-> make uninstall
-
-## License
-
-*myhardworkbythesewordsguardedpleasedontsteal(c)Zi0P4tch0*
+## 📜 License
 
 ```
 The MIT License (MIT)
 
-Copyright (c) 2019-2023 Matteo Pacini
+Copyright (c) 2019-2023 Codecraft Ltd
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
